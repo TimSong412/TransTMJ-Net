@@ -1,11 +1,14 @@
 install python 3.10
+
 install pytorch based on your cuda. suggest 2.5+
+
 install requirements.txt
 
 Put checkpoints under `checkpoints/`, like
-checkpoints/epoch00250_step083500/...[subfolders]
+`checkpoints/epoch00250_step083500/...[subfolders]`
 
-Put data under `data/`, like data/eval
+
+Put data under `data/`, like `data/eval`
 
 
 ```bash
