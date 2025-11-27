@@ -9,6 +9,10 @@ Download the checkpoint from
 We will have demo eval data later.
 
 
+download checkpoints and data from:
+https://drive.google.com/drive/folders/1VH--WiX7jTraDrfwLaFFE93NEt38qqUm?usp=drive_link
+
+
 Put checkpoints under `checkpoints/`, like
 `checkpoints/epoch00250_step083500/...[subfolders]`
 
