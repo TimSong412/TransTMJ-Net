@@ -1,0 +1,23 @@
+
+exp: controlnet_center3k5
+eval_only: True
+
+dataset: [base]
+datadir: data/train
+val_datadir: data/eval
+batchsize: 16 #4 for RGB， 16 for latent
+val_batchsize: 8
+ns_lr: 0.0001
+eval: True
+lr_decay_steps: 2000
+lr_decay: 0.7
+val_steps: 4000
+trainer: controlnet
+save_steps: 50
+condition_dim: 3
+data_online: True
+epochs: 500
+val_dataseq: [1, 3, 4, 13]
+
+ckpt: checkpoints/epoch00250_step083500
+load_optim: True

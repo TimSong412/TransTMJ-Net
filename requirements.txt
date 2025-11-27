@@ -1,0 +1,9 @@
+diffusers
+transformers
+opencv-python
+numpy
+tqdm
+open_clip_torch
+matplotlib
+accelerate
+lpips
