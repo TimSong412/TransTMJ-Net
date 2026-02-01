@@ -1,11 +1,12 @@
-install python 3.10
+Install python 3.10
 
-install pytorch based on your cuda. suggest 2.5+
+Install pytorch based on your cuda. suggest 2.5+
 
-install requirements.txt
+Install requirements.txt
 
-download checkpoint and eval data from
+Download the checkpoint from
 `https://drive.google.com/drive/folders/1VH--WiX7jTraDrfwLaFFE93NEt38qqUm?usp=drive_link`
+We will have demo eval data later.
 
 
 Put checkpoints under `checkpoints/`, like
