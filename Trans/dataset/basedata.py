@@ -48,13 +48,13 @@ class BaseData(torch.utils.data.Dataset):
                 for ct_file in all_CT:
                     ct = np.load(ct_file)
                     # crop the ct
-                    ct = ct[152:, :-152]
+                    # ct = ct[152:, :-152]
                     # resize to 512*512
                     ct = cv2.resize(ct, (512, 512), interpolation=cv2.INTER_LINEAR)
                     CT_np.append(ct)
                 for mri_file in all_MRI:
                     mri = np.load(mri_file)
-                    mri = mri[152:, :-152]
+                    # mri = mri[152:, :-152]
                     mri = cv2.resize(mri, (512, 512), interpolation=cv2.INTER_LINEAR)
                     MRI_np.append(mri)
                 self.data_seqs.append((CT_np, MRI_np))
