@@ -1,0 +1,8 @@
+output/*
+data/*
+.vscode
+__pycache__
+*.pyc
+*.pkl
+torch_cache
+checkpoints/*
