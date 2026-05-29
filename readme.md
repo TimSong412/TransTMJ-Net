@@ -13,8 +13,8 @@ pip install -r requirements.txt
 ```
 
 Download the checkpoint from
-
 [https://drive.google.com/drive/folders/1VH--WiX7jTraDrfwLaFFE93NEt38qqUm?usp=drive_link](https://drive.google.com/drive/folders/1VH--WiX7jTraDrfwLaFFE93NEt38qqUm?usp=drive_link)
+
 Don't hesitate to get in touch with the corresponding author for demo evaluation data.
 
 
