@@ -14,11 +14,8 @@ pip install -r requirements.txt
 
 Download the checkpoint from
 `https://drive.google.com/drive/folders/1VH--WiX7jTraDrfwLaFFE93NEt38qqUm?usp=drive_link`
-We will have demo eval data later.
+Don't hesitate to get in touch with the corresponding author for demo evaluation data.
 
-
-download checkpoints and data from:
-https://drive.google.com/drive/folders/1VH--WiX7jTraDrfwLaFFE93NEt38qqUm?usp=drive_link
 
 
 Put checkpoints under `checkpoints/`, like
