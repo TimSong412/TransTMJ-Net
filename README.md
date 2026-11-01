@@ -16,6 +16,9 @@ and individual outputs outside this folder.
 
 ## Evaluation
 
+Download the checkpoint from
+[Google Drive Link](https://drive.google.com/file/d/1u5CBztcBR5WfwAcbtgsbX4OUyDJC9_sH/view?usp=sharing)
+
 Install `environment/requirements_core.txt` in your evaluation environment.
 The DINOv2 backbone is included locally.
 
