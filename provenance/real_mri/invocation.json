@@ -1,0 +1,7 @@
+{
+  "record_type": "historical_summary",
+  "arm": "real_mri",
+  "current_verification": "See environment/privacy_verification.json; historical private invocation details are withheld. 相关资料：联系我们获取。",
+  "availability": "联系我们获取",
+  "access_policy": "患者名单、训练／测试／排除病例清单、患者编号映射及逐病例预测：联系我们获取。相关资料不随本文件夹公开提供，获取须符合授权及伦理要求。"
+}

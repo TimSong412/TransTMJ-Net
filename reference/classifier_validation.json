@@ -1,0 +1,37 @@
+{
+  "status": "HISTORICAL_AGGREGATE_VERIFICATION_NOT_RERUN",
+  "n_predictions": 252,
+  "arms": [
+    {
+      "arm": "real_mri",
+      "status": "HISTORICAL_PASS_NOT_RERUN",
+      "n": 63,
+      "auc": 0.8744897959183674,
+      "classification_method": "Historical agreement with private individual predictions. Those records are withheld; this privacy revision did not rerun inference. 相关资料：联系我们获取。",
+      "threshold": 0.7886135876178741,
+      "threshold_source": "checkpoint threshold and original native evaluation result"
+    },
+    {
+      "arm": "smri",
+      "status": "HISTORICAL_PASS_NOT_RERUN",
+      "n": 63,
+      "auc": 0.7673469387755102,
+      "classification_method": "Historical agreement with private individual predictions. Those records are withheld; this privacy revision did not rerun inference. 相关资料：联系我们获取。"
+    },
+    {
+      "arm": "fusion",
+      "status": "HISTORICAL_PASS_NOT_RERUN",
+      "n": 63,
+      "auc": 0.7683673469387755,
+      "classification_method": "Historical agreement with private individual predictions. Those records are withheld; this privacy revision did not rerun inference. 相关资料：联系我们获取。"
+    },
+    {
+      "arm": "cbct",
+      "status": "HISTORICAL_PASS_NOT_RERUN",
+      "n": 63,
+      "auc": 0.6479591836734694,
+      "classification_method": "Historical agreement with private individual predictions. Those records are withheld; this privacy revision did not rerun inference. 相关资料：联系我们获取。"
+    }
+  ],
+  "ci_and_pq": "Not recomputed in this correction; prior generated-image statistics are excluded."
+}

@@ -1,0 +1,65 @@
+{
+  "mode": "locked_checkpoint_transfer_evaluation",
+  "modality": "real_mri",
+  "source_checkpoint": "checkpoints/real_mri/epoch_002_trainable.pt",
+  "primary_binary": {
+    "accuracy": 0.8095238095238095,
+    "balanced_accuracy": 0.8071428571428572,
+    "sensitivity": 0.8285714285714286,
+    "specificity": 0.7857142857142857,
+    "precision": 0.8285714285714286,
+    "f1": 0.8285714285714286,
+    "threshold": 0.7886135876178741,
+    "confusion_matrix": [
+      [
+        22,
+        6
+      ],
+      [
+        6,
+        29
+      ]
+    ],
+    "n": 63,
+    "positive_n": 35,
+    "negative_n": 28,
+    "excluded_posterior_n": 0,
+    "auc": 0.8744897959183673,
+    "auc_95_ci": {
+      "lower": 0.770803931451613,
+      "upper": 0.9554820085929107,
+      "method": "patient-cluster percentile bootstrap",
+      "iterations_requested": 2000,
+      "iterations_valid": 2000,
+      "seed": 20260813,
+      "patient_clusters": 60
+    },
+    "brier": 0.19062032926821787,
+    "ece_10bin": 0.19012196848375928,
+    "threshold_source": "locked_source_checkpoint"
+  },
+  "supplementary_three_class": {
+    "n": 63,
+    "accuracy": 0.746031746031746,
+    "balanced_accuracy": 0.7357142857142858,
+    "macro_f1": 0.5114845938375351,
+    "confusion_matrix": [
+      [
+        18,
+        6,
+        4
+      ],
+      [
+        5,
+        29,
+        1
+      ],
+      [
+        0,
+        0,
+        0
+      ]
+    ],
+    "macro_ovr_auc": null
+  }
+}

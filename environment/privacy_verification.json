@@ -1,0 +1,98 @@
+{
+  "date": "2026-10-31",
+  "status": "PASS_STATIC_AND_SYNTHETIC_REGRESSION_CHECKS",
+  "checkpoint_checks": [
+    {
+      "arm": "smri",
+      "tensor_count": 167,
+      "all_tensor_values_unchanged": true,
+      "threshold_unchanged": true,
+      "checkpoint_sha256": "7eb0b24903ff6bec54ceff1756a0c8eca23e734866a67e454c89adfd2bddf956"
+    },
+    {
+      "arm": "fusion",
+      "tensor_count": 167,
+      "all_tensor_values_unchanged": true,
+      "threshold_unchanged": true,
+      "checkpoint_sha256": "4052d6c327918338205e9efbe594df4610f62d864fb0abc5844a1437e6284b8b"
+    },
+    {
+      "arm": "real_mri",
+      "tensor_count": 167,
+      "all_tensor_values_unchanged": true,
+      "threshold_unchanged": true,
+      "checkpoint_sha256": "f1625c22bea107f07ddddadc23c54082190aa5b7c9849f581f5f180c617aa5e6"
+    },
+    {
+      "arm": "cbct",
+      "tensor_count": 167,
+      "all_tensor_values_unchanged": true,
+      "threshold_unchanged": true,
+      "checkpoint_sha256": "b5621d8a550bb87642ababe1c76cf50c04cb8a14141462bfe1dac2bc16b67f55"
+    }
+  ],
+  "full_cohort_inference_rerun": false,
+  "model_retrained": false,
+  "checks": [
+    "external_manifest_accepts_expected_counts_without_claiming_identity",
+    "contact_notice_rejected_as_manifest",
+    "fictional_example_rejected_as_manifest",
+    "incorrect_label_counts_rejected",
+    "manifest_path_traversal_rejected",
+    "private_output_inside_package_rejected",
+    "sanitized_checkpoint_loader_smri",
+    "sanitized_checkpoint_loader_fusion",
+    "sanitized_checkpoint_loader_real_mri",
+    "sanitized_checkpoint_loader_cbct",
+    "synthetic_archive_input_check_cbct",
+    "synthetic_archive_input_check_smri",
+    "synthetic_archive_input_check_fusion",
+    "synthetic_archive_input_check_real_mri",
+    "missing_fusion_image_rejected",
+    "output_privacy_full_aggregate",
+    "output_privacy_full_private",
+    "output_privacy_smoke_aggregate",
+    "output_privacy_smoke_private",
+    "python_and_json_syntax",
+    "shell_syntax",
+    "backbone_hash_model.safetensors",
+    "backbone_hash_config.json",
+    "backbone_hash_preprocessor_config.json",
+    "final_public_text_and_structured_metadata_scan",
+    "public_allowlist_excludes_private_and_runtime_outputs"
+  ],
+  "known_identifier_scan": "Original identifiers were scanned in text and checkpoint metadata during redaction. The only remaining hits were in the old source inventory and packaging plan; both were then replaced with public allowlists.",
+  "public_patient_record_count": 0,
+  "removed_per_case_prediction_files": 5,
+  "synthetic_output_branch_tests": true,
+  "inference_validation_limit": "Output-control tests used a synthetic model. transformers and scikit-learn are unavailable in the current Python environment; actual image inference was not rerun.",
+  "public_file_inventory_count": 45,
+  "second_review": {
+    "date": "2026-10-31",
+    "status": "PASS",
+    "files_examined": 50,
+    "hidden_files": 0,
+    "symlinks": 0,
+    "patient_records_found": 0,
+    "example_records": 0,
+    "checkpoint_tensor_count": 668,
+    "checkpoint_metadata_notice": "联系我们获取",
+    "backbone_header": "Only public tensor definitions and format=pt metadata; official SHA256 unchanged.",
+    "extended_attributes_examined": {
+      "com.apple.quarantine": 53,
+      "com.apple.provenance": 48,
+      "com.apple.metadata:kMDItemWhereFroms": 3,
+      "com.apple.macl": 2
+    },
+    "download_origin_attributes_removed_from": [
+      "model.safetensors",
+      "config.json",
+      "preprocessor_config.json"
+    ],
+    "remaining_extended_attributes": "OS provenance, MAC access metadata and quarantine flags; no patient records.",
+    "unified_access_notice": "联系我们获取",
+    "scope": "All files, filenames, text, structured metadata, checkpoint containers and extended attributes in this classifier folder."
+  },
+  "record_type": "prior_privacy_verification_with_current_checkpoint_checksums",
+  "note": "This records the prior privacy checks. Current package verification is recorded in package_verification.json."
+}

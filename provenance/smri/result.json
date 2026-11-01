@@ -1,0 +1,65 @@
+{
+  "mode": "locked_checkpoint_transfer_evaluation",
+  "modality": "smri",
+  "source_checkpoint": "checkpoints/smri/best_trainable.pt",
+  "primary_binary": {
+    "accuracy": 0.746031746031746,
+    "balanced_accuracy": 0.7535714285714286,
+    "sensitivity": 0.6857142857142857,
+    "specificity": 0.8214285714285714,
+    "precision": 0.8275862068965517,
+    "f1": 0.75,
+    "threshold": 0.8376087546348572,
+    "confusion_matrix": [
+      [
+        23,
+        5
+      ],
+      [
+        11,
+        24
+      ]
+    ],
+    "n": 63,
+    "positive_n": 35,
+    "negative_n": 28,
+    "excluded_posterior_n": 0,
+    "auc": 0.7673469387755102,
+    "auc_95_ci": {
+      "lower": 0.638629914004914,
+      "upper": 0.887690031472359,
+      "method": "patient-cluster percentile bootstrap",
+      "iterations_requested": 2000,
+      "iterations_valid": 2000,
+      "seed": 20260813,
+      "patient_clusters": 60
+    },
+    "brier": 0.2538101492069917,
+    "ece_10bin": 0.2519744615706186,
+    "threshold_source": "locked_source_checkpoint"
+  },
+  "supplementary_three_class": {
+    "n": 63,
+    "accuracy": 0.6507936507936508,
+    "balanced_accuracy": 0.6464285714285714,
+    "macro_f1": 0.45230078563411896,
+    "confusion_matrix": [
+      [
+        17,
+        7,
+        4
+      ],
+      [
+        9,
+        24,
+        2
+      ],
+      [
+        0,
+        0,
+        0
+      ]
+    ],
+    "macro_ovr_auc": null
+  }
+}

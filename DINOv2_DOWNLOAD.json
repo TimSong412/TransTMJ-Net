@@ -1,0 +1,27 @@
+{
+  "repo_id": "facebook/dinov2-large",
+  "official_repository": "https://huggingface.co/facebook/dinov2-large",
+  "revision": "0ff9d1340c9524c60f3f03e8573c57a1f8197f24",
+  "local_directory": ".",
+  "files": [
+    {
+      "filename": "model.safetensors",
+      "url": "https://huggingface.co/facebook/dinov2-large/resolve/0ff9d1340c9524c60f3f03e8573c57a1f8197f24/model.safetensors",
+      "expected_bytes": 1217522888,
+      "expected_sha256": "399fba97a95f22c36834418bc69373364a99af3a1153da1c0fb31db567c92e23"
+    },
+    {
+      "filename": "config.json",
+      "url": "https://huggingface.co/facebook/dinov2-large/resolve/0ff9d1340c9524c60f3f03e8573c57a1f8197f24/config.json",
+      "expected_bytes": 549,
+      "expected_sha256": "12df51c069a2dc1305e34ba71ef58bc2407ea553b75f4722a1715c1bce3bbed0"
+    },
+    {
+      "filename": "preprocessor_config.json",
+      "url": "https://huggingface.co/facebook/dinov2-large/resolve/0ff9d1340c9524c60f3f03e8573c57a1f8197f24/preprocessor_config.json",
+      "expected_bytes": 436,
+      "expected_sha256": "14e780d86fa1861f8751f868d7f45425b5feb55c38ca26f152ca5097ab30f828"
+    }
+  ],
+  "patient_data": "联系我们获取"
+}

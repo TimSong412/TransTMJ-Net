@@ -1,0 +1,65 @@
+{
+  "mode": "locked_checkpoint_transfer_evaluation",
+  "modality": "fusion",
+  "source_checkpoint": "checkpoints/fusion/target_trainable.pt",
+  "primary_binary": {
+    "accuracy": 0.7301587301587301,
+    "balanced_accuracy": 0.7428571428571429,
+    "sensitivity": 0.6285714285714286,
+    "specificity": 0.8571428571428571,
+    "precision": 0.8461538461538461,
+    "f1": 0.7213114754098361,
+    "threshold": 0.1581743359565735,
+    "confusion_matrix": [
+      [
+        24,
+        4
+      ],
+      [
+        13,
+        22
+      ]
+    ],
+    "n": 63,
+    "positive_n": 35,
+    "negative_n": 28,
+    "excluded_posterior_n": 0,
+    "auc": 0.7683673469387755,
+    "auc_95_ci": {
+      "lower": 0.6525461792564128,
+      "upper": 0.8782849326599326,
+      "method": "patient-cluster percentile bootstrap",
+      "iterations_requested": 2000,
+      "iterations_valid": 2000,
+      "seed": 20260813,
+      "patient_clusters": 60
+    },
+    "brier": 0.311115814154611,
+    "ece_10bin": 0.3254792756504482,
+    "threshold_source": "locked_source_checkpoint"
+  },
+  "supplementary_three_class": {
+    "n": 63,
+    "accuracy": 0.4444444444444444,
+    "balanced_accuracy": 0.4107142857142857,
+    "macro_f1": 0.3672883787661406,
+    "confusion_matrix": [
+      [
+        3,
+        25,
+        0
+      ],
+      [
+        10,
+        25,
+        0
+      ],
+      [
+        0,
+        0,
+        0
+      ]
+    ],
+    "macro_ovr_auc": null
+  }
+}

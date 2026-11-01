@@ -1,0 +1,29 @@
+{
+  "date": "2026-10-31",
+  "status": "PASS",
+  "checks": {
+    "inference_and_preprocessing_ast_unchanged_except_error_message": true,
+    "syntax": true,
+    "backbone_bytes_unchanged": true,
+    "trainable_tensor_count_unchanged": 668,
+    "all_tensor_values_and_thresholds_unchanged": true,
+    "recorded_metric_values_unchanged": true,
+    "empty_example_manifest_rejected": true,
+    "synthetic_png_real_model_smoke_tests": {
+      "cbct": true,
+      "smri": true,
+      "fusion": true,
+      "real_mri": true
+    },
+    "aggregate_and_private_output_branches_synthetic": true
+  },
+  "environment": {
+    "python": "3.9.6",
+    "torch": "2.8.0",
+    "transformers": "4.52.4",
+    "device": "mps"
+  },
+  "full_patient_cohort_inference_rerun": false,
+  "training_rerun": false,
+  "scope": "Parameter and recorded-metric preservation, code equivalence, synthetic-image inference using all four real models, output handling, and package structure. Synthetic tests are not patient performance measurements."
+}

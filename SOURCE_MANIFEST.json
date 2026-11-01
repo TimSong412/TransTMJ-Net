@@ -1,0 +1,238 @@
+{
+  "schema": "public-classifier-inference-package-v3",
+  "revision_date": "2026-10-31",
+  "n_files": 45,
+  "uncompressed_bytes": 1298311720,
+  "evaluation_images_included": false,
+  "patient_records_included": false,
+  "data_access": "联系我们获取",
+  "checkpoint_verification": "All model tensors and four thresholds match the pre-update values. Container checksums were updated after metadata changes.",
+  "inventory_note": "Explicit file allowlist; this file is excluded from its own hash list.",
+  "files": [
+    {
+      "path": "DATA_ACCESS.json",
+      "bytes": 264,
+      "sha256": "2800cf989fb3fb8066fe4e312e1b8a78cf638fda69c2c24356fa5b29e8cd81e8"
+    },
+    {
+      "path": "DINOv2_DOWNLOAD.json",
+      "bytes": 1167,
+      "sha256": "5995e6a09bb06698364c86ea7eaa2768f6260c9637a61fccbb4142fb63e61931"
+    },
+    {
+      "path": "README.md",
+      "bytes": 2854,
+      "sha256": "c5c46d3327a39f3a7bc2e91594f48113ad0b0172dcd06968f7fd0cdf416711a3"
+    },
+    {
+      "path": "checkpoints/cbct/best_trainable.pt",
+      "bytes": 20167153,
+      "sha256": "b5621d8a550bb87642ababe1c76cf50c04cb8a14141462bfe1dac2bc16b67f55"
+    },
+    {
+      "path": "checkpoints/fusion/target_trainable.pt",
+      "bytes": 20167153,
+      "sha256": "4052d6c327918338205e9efbe594df4610f62d864fb0abc5844a1437e6284b8b"
+    },
+    {
+      "path": "checkpoints/real_mri/epoch_002_trainable.pt",
+      "bytes": 20167153,
+      "sha256": "f1625c22bea107f07ddddadc23c54082190aa5b7c9849f581f5f180c617aa5e6"
+    },
+    {
+      "path": "checkpoints/smri/best_trainable.pt",
+      "bytes": 20167153,
+      "sha256": "7eb0b24903ff6bec54ceff1756a0c8eca23e734866a67e454c89adfd2bddf956"
+    },
+    {
+      "path": "code/train_diagnostic_classifier.py",
+      "bytes": 27995,
+      "sha256": "88e3a59427bd28e77fc598fc12a3eade1897e94d1f620d41fdb1c1729cb4b06f"
+    },
+    {
+      "path": "code/train_foundation_mil_classifier.py",
+      "bytes": 21600,
+      "sha256": "8b1c0c34b11511538a2986b9b29f316bccf5ab365f7456e0cf0c5073dae7f189"
+    },
+    {
+      "path": "config.json",
+      "bytes": 549,
+      "sha256": "12df51c069a2dc1305e34ba71ef58bc2407ea553b75f4722a1715c1bce3bbed0"
+    },
+    {
+      "path": "configs/cbct_effective_native_eval_args.json",
+      "bytes": 1384,
+      "sha256": "af9530a30383b2f6b26c2ea859dfa6ea87492aa8f7d89873ce575292a0df7e3b"
+    },
+    {
+      "path": "configs/fusion_effective_native_eval_args.json",
+      "bytes": 2690,
+      "sha256": "1d0338bed14566d9cf9ca83cb786c04edd659d9a77adbaef06788404e7006458"
+    },
+    {
+      "path": "configs/real_mri_effective_native_eval_args.json",
+      "bytes": 1399,
+      "sha256": "a1bc880e6e960e824135a6d72a031dd6eba2ccbe32859c6b38f38973bfc1c9cc"
+    },
+    {
+      "path": "configs/smri_effective_native_eval_args.json",
+      "bytes": 2689,
+      "sha256": "2258f1862bd28c0e4ba54340e5f5e6cbc152b500402e8589370066e4e89aaf05"
+    },
+    {
+      "path": "environment/english_conversion_verification.json",
+      "bytes": 531,
+      "sha256": "ad314f022e7cab073e0268a490a32355eac1666a7560ed9d88c0918d8d67a77f"
+    },
+    {
+      "path": "environment/package_verification.json",
+      "bytes": 1012,
+      "sha256": "c99af068c81a215e30ae253f1f47a67eaec383b54ed080027abf36f105154865"
+    },
+    {
+      "path": "environment/portable_verification.json",
+      "bytes": 531,
+      "sha256": "ad314f022e7cab073e0268a490a32355eac1666a7560ed9d88c0918d8d67a77f"
+    },
+    {
+      "path": "environment/privacy_verification.json",
+      "bytes": 4062,
+      "sha256": "c787757317b7dcec367cebb81c08e562cd8f2c778877e1e7c039c60a1fd46fae"
+    },
+    {
+      "path": "environment/requirements_core.txt",
+      "bytes": 136,
+      "sha256": "64408a4ebabff6d495cb8d24ea851d47079553817f9a99f8ae90399d2764350e"
+    },
+    {
+      "path": "environment/runtime_environment.json",
+      "bytes": 6547,
+      "sha256": "32547b5a8e83c8628995d84bf94945f9343b4c940300001b38e6f8c8c9d98e7b"
+    },
+    {
+      "path": "environment/shift_description_update.json",
+      "bytes": 531,
+      "sha256": "ad314f022e7cab073e0268a490a32355eac1666a7560ed9d88c0918d8d67a77f"
+    },
+    {
+      "path": "manifests/classification_locked_binary_626_63_current_patients.json",
+      "bytes": 373,
+      "sha256": "156485e76f2ffc7489fcb3e93168792e8cd03ccd8257bf8b3d993794736cc4e4"
+    },
+    {
+      "path": "manifests/private_manifest.example.json",
+      "bytes": 920,
+      "sha256": "757d72bd8e5d214ffc76f63f7032a7535fda60f4fc89de127a778275d498cc20"
+    },
+    {
+      "path": "model.safetensors",
+      "bytes": 1217522888,
+      "sha256": "399fba97a95f22c36834418bc69373364a99af3a1153da1c0fb31db567c92e23"
+    },
+    {
+      "path": "model_index.json",
+      "bytes": 5003,
+      "sha256": "9b92c309c0b96c8462d828c41e4b18321afe18b4c2d02dc70add19edaf784289"
+    },
+    {
+      "path": "preprocessor_config.json",
+      "bytes": 436,
+      "sha256": "14e780d86fa1861f8751f868d7f45425b5feb55c38ca26f152ca5097ab30f828"
+    },
+    {
+      "path": "provenance/cbct/evaluation.receipt.json",
+      "bytes": 481,
+      "sha256": "23f8d4f6be7ccb11640f04e37a153056ebf83ceffb5ee1ae8214f0d89922fd4e"
+    },
+    {
+      "path": "provenance/cbct/invocation.json",
+      "bytes": 481,
+      "sha256": "23f8d4f6be7ccb11640f04e37a153056ebf83ceffb5ee1ae8214f0d89922fd4e"
+    },
+    {
+      "path": "provenance/cbct/result.json",
+      "bytes": 1354,
+      "sha256": "e25aa5095a31b1aa87c88ea0ea9e7c8077baecc09e495c7672dbdbdf485dcc1c"
+    },
+    {
+      "path": "provenance/cbct/verification.json",
+      "bytes": 481,
+      "sha256": "23f8d4f6be7ccb11640f04e37a153056ebf83ceffb5ee1ae8214f0d89922fd4e"
+    },
+    {
+      "path": "provenance/fusion/invocation.json",
+      "bytes": 483,
+      "sha256": "d9e147bf85b6371b6f756dfe931f81ecf812735a79bb8e4354e5be80f962ec2f"
+    },
+    {
+      "path": "provenance/fusion/result.json",
+      "bytes": 1432,
+      "sha256": "a4c64f0f8e025efc3e3174afdf3d644d00a917c0a3ffd7d4dfa8d4872e4aa6cb"
+    },
+    {
+      "path": "provenance/real_mri/invocation.json",
+      "bytes": 485,
+      "sha256": "fc015e765dc188e1ca6ab85a86af54aa8d316c1f8d12de28bc86db959bce554c"
+    },
+    {
+      "path": "provenance/real_mri/result.json",
+      "bytes": 1438,
+      "sha256": "fd891b6b520cbea9b329d5e1bd14d4ec1fbaf142daa66d5526193484eac63b97"
+    },
+    {
+      "path": "provenance/smri/invocation.json",
+      "bytes": 481,
+      "sha256": "de84f2278cce0b685d3f77acbd1596230739a6f6a7fc7c1da6d6542623bb2b8a"
+    },
+    {
+      "path": "provenance/smri/result.json",
+      "bytes": 1410,
+      "sha256": "005a8f475f85e29b8b34bcd9c5ae1c5ec8398930f8d4907a1ab325e0e30ba1ea"
+    },
+    {
+      "path": "reference/classifier_primary_points.csv",
+      "bytes": 1139,
+      "sha256": "2f97a5304f639aa18d4f3116cf83e02a28939658fdd5414e1ef7b337a9cdccad"
+    },
+    {
+      "path": "reference/classifier_validation.json",
+      "bytes": 1655,
+      "sha256": "a10cb61b4fe3ec553ec78ef7ae9b9b9f89b5b9f68daf9a359555a20fed865cfd"
+    },
+    {
+      "path": "reproduction/README.md",
+      "bytes": 629,
+      "sha256": "0f9362c9c70e54ae377dc0e603d8db6b95f786920cdd2d8ecff3bc96c07ca11c"
+    },
+    {
+      "path": "reproduction/build_package.py",
+      "bytes": 3934,
+      "sha256": "c97d66edafcc38e66491fba400a7312c96c78cc0bfce2268da091edd483528c2"
+    },
+    {
+      "path": "reproduction/control_source_manifest.json",
+      "bytes": 191,
+      "sha256": "8da94cca3b849a2a537fee1ea3862f0a5c3c30bfb23588f384b130b0a60179a7"
+    },
+    {
+      "path": "reproduction/launch_package.sh",
+      "bytes": 152,
+      "sha256": "9bcac186560cbba03e46d18d2531b6168c798b762bf8d05970de92d7c31cce31"
+    },
+    {
+      "path": "reproduction/package_plan.json",
+      "bytes": 2000,
+      "sha256": "f4f71e14dfd024266993c9d07db1fd08f91edb9d21e9c5c45b85801566106f0c"
+    },
+    {
+      "path": "run_all.sh",
+      "bytes": 113,
+      "sha256": "66aa1e5a4a8651c28ae57e372857a7625064b49a7f5507bcf3347f346842d671"
+    },
+    {
+      "path": "run_evaluation.py",
+      "bytes": 19208,
+      "sha256": "6c98a3266c2ba6f588d41d996d06ffeb34d5153a898812179b71e662958229f5"
+    }
+  ]
+}

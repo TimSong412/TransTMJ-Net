@@ -1,0 +1,7 @@
+{
+  "record_type": "historical_verification_summary",
+  "revalidated_after_privacy_revision": false,
+  "note": "Historical case-level records and internal paths withheld. See privacy_verification.json for checks of this revision. 相关资料：联系我们获取。",
+  "availability": "联系我们获取",
+  "access_policy": "患者名单、训练／测试／排除病例清单、患者编号映射及逐病例预测：联系我们获取。相关资料不随本文件夹公开提供，获取须符合授权及伦理要求。"
+}

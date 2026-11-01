@@ -1,0 +1,17 @@
+{
+  "schema_version": 2,
+  "synthetic_example_only": true,
+  "patient_identity_verified": true,
+  "items": [],
+  "note": "仅提供字段格式，items 为空，不包含真实或虚构患者记录；不得直接用于评估。患者清单及编号映射：联系我们获取。",
+  "availability": "联系我们获取",
+  "access_policy": "患者名单、训练／测试／排除病例清单、患者编号映射及逐病例预测：联系我们获取。相关资料不随本文件夹公开提供，获取须符合授权及伦理要求。",
+  "record_schema": {
+    "joint_id": "string: authorized joint-directory identifier",
+    "patient_id": "string: authorized patient identifier",
+    "canonical_patient_id": "string: source-verified patient identifier, when available",
+    "side": "L or R",
+    "label": "integer: 0 (normal) or 1 (anterior displacement)",
+    "split": "string: test for historical replay"
+  }
+}

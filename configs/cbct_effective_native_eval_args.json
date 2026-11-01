@@ -1,0 +1,59 @@
+{
+  "manifest": null,
+  "processed_root": null,
+  "evaluation_archive_root": null,
+  "evaluation_archive_reverse_depth": true,
+  "backbone_path": ".",
+  "model_family": "dinov2",
+  "output_dir": "output/cbct",
+  "modality": "cbct",
+  "eval_batch_size": 2,
+  "slices": 15,
+  "image_size": 518,
+  "slice_chunk_size": 3,
+  "slice_feature_source": "learned_patch_attention",
+  "slice_view_position_embedding": true,
+  "roi_ratio": 1.0,
+  "spatial_view_ratios": [
+    1.0,
+    0.605
+  ],
+  "depth_ratio": 0.9,
+  "canonicalize_right_side": false,
+  "mirror_all": false,
+  "aligned_reference": false,
+  "adjacent_slice_channels": false,
+  "adjacent_channel_order": "native",
+  "normalization_mean": [
+    0.485,
+    0.456,
+    0.406
+  ],
+  "normalization_std": [
+    0.229,
+    0.224,
+    0.225
+  ],
+  "intensity_representation": "structural_rgb",
+  "lora_rank": 16,
+  "input_adapter_hidden": 0,
+  "lora_alpha": 32.0,
+  "lora_dropout": 0.05,
+  "unfreeze_last_blocks": 0,
+  "lora_targets": [
+    "query",
+    "key",
+    "value"
+  ],
+  "attention_hidden": 256,
+  "head_dropout": 0.1,
+  "binary_head_mode": "independent",
+  "volume_transformer_layers": 0,
+  "volume_transformer_heads": 8,
+  "volume_transformer_ffn": 2048,
+  "seed": 20260825,
+  "gradient_checkpointing": false,
+  "checkpoint": "checkpoints/cbct/best_trainable.pt",
+  "eval_only": true,
+  "patient_data": "联系我们获取"
+}

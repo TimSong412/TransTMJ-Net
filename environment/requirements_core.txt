@@ -1,0 +1,8 @@
+torch==2.5.1
+torchvision==0.20.1
+transformers==4.52.4
+numpy==1.26.4
+scikit-learn==1.5.2
+Pillow==12.3.0
+scipy==1.14.1
+safetensors==0.8.0

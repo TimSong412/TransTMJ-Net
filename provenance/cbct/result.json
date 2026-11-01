@@ -1,0 +1,65 @@
+{
+  "mode": "locked_checkpoint_transfer_evaluation",
+  "modality": "cbct",
+  "source_checkpoint": "checkpoints/cbct/best_trainable.pt",
+  "primary_binary": {
+    "accuracy": 0.6190476190476191,
+    "balanced_accuracy": 0.65,
+    "sensitivity": 0.37142857142857144,
+    "specificity": 0.9285714285714286,
+    "precision": 0.8666666666666667,
+    "f1": 0.52,
+    "threshold": 0.05184546485543251,
+    "confusion_matrix": [
+      [
+        26,
+        2
+      ],
+      [
+        22,
+        13
+      ]
+    ],
+    "n": 63,
+    "positive_n": 35,
+    "negative_n": 28,
+    "excluded_posterior_n": 0,
+    "auc": 0.6479591836734694,
+    "auc_95_ci": {
+      "lower": 0.520797821969697,
+      "upper": 0.7866204976759896,
+      "method": "patient-cluster percentile bootstrap",
+      "iterations_requested": 2000,
+      "iterations_valid": 2000,
+      "seed": 20260813,
+      "patient_clusters": 60
+    },
+    "brier": 0.5194110339308181,
+    "ece_10bin": 0.5282371207657788,
+    "threshold_source": "locked_source_checkpoint"
+  },
+  "supplementary_three_class": {
+    "n": 63,
+    "accuracy": 0.0,
+    "balanced_accuracy": 0.0,
+    "macro_f1": 0.0,
+    "confusion_matrix": [
+      [
+        0,
+        0,
+        28
+      ],
+      [
+        0,
+        0,
+        35
+      ],
+      [
+        0,
+        0,
+        0
+      ]
+    ],
+    "macro_ovr_auc": null
+  }
+}
